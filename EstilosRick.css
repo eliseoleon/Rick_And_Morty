@@ -1,0 +1,71 @@
+body{
+    margin: 0%;
+}
+
+
+.title{
+    background-color:  #1f3b08;
+    width: 100%;
+    margin: 0px;
+    color: whitesmoke;
+    display: flex;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    height: 40px;
+}
+.title h2{
+    margin: 0%;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+.title input{
+    margin-left: 50px;
+    height: 20px;
+    margin-top: 5px;
+}
+.title button{
+
+    background-color: green;
+    color: whitesmoke;
+    border: none;
+    height: 26px;
+    margin-top: 5px;
+
+}
+
+
+.contenedor{
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-left: 28px;
+}
+
+.contenedor .personaje {
+    width: 90%;
+    height: auto;
+    border: black solid;
+}
+.contenedor .personaje img {
+    height: 240px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nombre{
+
+font-size: 20px;
+}
+.species{
+
+color: blue;
+
+}
+.status{
+    border-bottom: solid gray;
+}
+.gender{
+border-bottom: solid gray;
+
+
+}
